@@ -1,7 +1,9 @@
+# Create and Manage Cloud Resources: Challenge Lab
+
 ## Task 1. Create a project jumphost instance
 1. Go to Compute Engine > VM Instance > CREATE INSTANCE
 2. In the Create function dialog, considr the following values:
-    - Name for the VM instance : <given instance name>
+    - Name for the VM instance : [given instance name]
     - Region : leave Default Region
     - Zone : leave Default Zone
     - Machine Type : f1-micro (N1 Series)
@@ -12,9 +14,9 @@
 
 ### Using the Google Cloud shell
 1. Activate the shell
-2. gcloud config set compute/zone <given lab zone>
-3. gcloud container clusters create <cluster name of your choice>
-4. gcloud container clusters get-credentials <name of created bucket>
+2. gcloud config set compute/zone [given lab zone]
+3. gcloud container clusters create [cluster name of your choice]
+4. gcloud container clusters get-credentials [name of created bucket]
 5. kubectl create deployment hello-app --image=gcr.io/google-samples/hello-app:2.0
 6. kubectl expose deployment hello-app --type=LoadBalancer --port 8080
 7. kubectl get service 
