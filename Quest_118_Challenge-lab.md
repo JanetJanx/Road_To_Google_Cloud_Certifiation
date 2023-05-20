@@ -33,5 +33,5 @@ In line 15 of index.js replace the text REPLACE_WITH_YOUR_TOPIC ID with the <giv
 
 ## Task 4: Remove the previous cloud engineer
 1. Go to IAM & Admin -> IAM
-2. Search for Username 2 and click "REMOVE Access".
+2. Search for Username 2 and click "REMOVE ACCESS".
 3. Click Check my progress to verify your performed task.
